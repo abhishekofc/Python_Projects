@@ -1,4 +1,4 @@
-questions = [
+questions =[
     ["Who is Shah Rukh Khan?","WWE Wrestler","Prime Minister of India","Cricketer","Actor",4],
     ["What is the capital of India?","Mumbai","Chennai","New Delhi","Kolkata",3],
     ["Which planet is known as the Red Planet?","Earth","Mars","Jupiter","Saturn",2],
