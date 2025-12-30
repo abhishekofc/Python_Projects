@@ -11,12 +11,16 @@ questions =[
     ["Which ocean is the largest?","Atlantic Ocean","Indian Ocean","Arctic Ocean","Pacific Ocean",4]
 ]
 
+prizes = [1000, 2000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000]
+
+i=0
 for question in questions:
+    
     print(question[0])
     print(f"a. {question[1]}")
     print(f"b. {question[2]}")
     print(f"c. {question[3]}")
-    print(f"d. {question[4]}")
+    print(f"d. {question[4]}") 
 
     # Check whether the answer is correct or Not ?
     answer = int(input("Enter your anser. 1 for a, 2 for b, 3 for c, 4 for d: "))
@@ -26,3 +30,5 @@ for question in questions:
         print(f"Sorry! Correct answer is {question[5]}.\n")
         print("Game Over!")
         break;
+    print(f"You have won Rs. {prizes[i]}\n")
+    i+=1
